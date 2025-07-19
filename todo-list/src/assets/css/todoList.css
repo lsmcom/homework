@@ -1,0 +1,84 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #faf8f8;
+}
+
+.container {
+  margin-top: 20px;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contents {
+  width: 75%;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1px 1px 15px 2px #ffff, -1px 0px 10px 8px #ffff;
+  padding: 2rem 2rem;
+  min-width: 600px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-status {
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+.todo-list {
+  width: 100%;
+  height: 90%;
+  background-color: #eae6e6;
+  border-radius: 10px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 1rem 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo .item1 {
+  flex: 1;
+}
+
+.todo .item2 {
+  flex: 2;
+  height: 70px;
+  line-height: 70px;
+}
+
+.todo .item3 {
+  flex: 1;
+}
+
+/* 할일이 완료되었을 때 배경을 어둡게 하기 위해 */
+.todo .complete {
+  background-color: #eeeeee;
+}
