@@ -1,0 +1,37 @@
+.login-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100%;
+}
+
+.user-select{
+    flex: 2;
+    text-align: center;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.user-select:hover{
+    border: 1px solid orange;
+}
+
+.login-btn{
+    flex: 1;
+    background-color: rgb(95, 95, 224);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+.login-btn:hover{
+    cursor: pointer;
+    background-color: rgb(57, 57, 234);
+}
+
+.login-btn:disabled{
+    cursor: not-allowed;
+    background-color: #ccc;
+}

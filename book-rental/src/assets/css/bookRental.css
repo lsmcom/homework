@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.container{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid blue;
+}
+
+.login-contents{
+    width: 360px;
+    height: 40px;
+    margin: 20px auto 0;
+}
+
+.rental-contents{
+    width: 800px;
+    height: 130px;
+    margin: 40px auto 0;
+}
+
+.bookList-contents{
+    width: 800px;
+    height: 280px;
+    margin: 60px auto 0;
+}

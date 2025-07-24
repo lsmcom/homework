@@ -1,0 +1,59 @@
+.rental-box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.text-btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.rental-text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.return-book{
+    width: 100px;
+    background-color: rgb(228, 97, 228);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+
+.return-book:hover{
+    cursor: pointer;
+    background-color: rgb(215, 41, 215);
+}
+
+.rental-listBox{
+    height: 60px;
+    padding: 0 1rem;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    line-height: 60px;
+}
+
+.rental-listBox input{
+    width: 14px;
+    height: 14px;
+}
+
+/* .rental-listBox input:first-child{
+    margin-left: 20px;
+} */
+
+.rental-listBox label{
+    padding-left: 5px;
+    padding-right: 20px;
+}
