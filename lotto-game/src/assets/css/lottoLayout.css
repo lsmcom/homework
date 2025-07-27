@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.container{
+    width: 700px;
+    height: 600px;
+    margin: 5vh auto 0;
+}
